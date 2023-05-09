@@ -7,7 +7,7 @@ This repository contains the code for the paper "HistAlign: Improving Context De
 **Arxiv:** [https://arxiv.org/abs/2305.04782](https://arxiv.org/abs/2305.04782)
 
 ## Overview
-<img src="images/figure.png"  width="600">
+<img src="images/figure.png"  width="400">
 
 
 We present HistAlign, a new training approach to ensure good cache alignment such that the model receives useful signals from the history. We demonstrate
@@ -137,3 +137,17 @@ deepspeed --master_port 10026 --include localhost:0,1,2,3  \
   --model_type histalign \
   --output_dir logicnlg_bart_histalign --contrastive_weight 0.5
 ```
+
+## Citation
+```bibtex
+@misc{wan2023histalign,
+      title={HistAlign: Improving Context Dependency in Language Generation by Aligning with History}, 
+      author={David Wan and Shiyue Zhang and Mohit Bansal},
+      year={2023},
+      eprint={2305.04782},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+
