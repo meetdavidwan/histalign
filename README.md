@@ -4,13 +4,13 @@ This repository contains the code for the paper "HistAlign: Improving Context De
 
 **Authors:** [David Wan](https://meetdavidwan.github.io), [Shiyue Zhang](https://www.cs.unc.edu/~shiyue/), and [Mohit Bansal](https://www.cs.unc.edu/~mbansal)
 
-**Arxiv:** SOON!
+**Arxiv:** [https://arxiv.org/abs/2305.04782](https://arxiv.org/abs/2305.04782)
 
 ## Overview
 <img src="images/figure.png"  width="600">
 
 
-we present HistAlign, a new training approach to ensure good cache alignment such that the model receives useful signals from the history. We demonstrate
+We present HistAlign, a new training approach to ensure good cache alignment such that the model receives useful signals from the history. We demonstrate
 that HistAlign improves text coherence and faithfulness in open-ended and conditional generation settings respectively.
 
 <img src="images/method.png"  width="600">
